@@ -1,3 +1,5 @@
+""" A perfect number is a number whose 
+sum of proper divisors(except the number) is equal to the number itself."""
 def FactorsSum(x):
     summ = 0
     for i in range(1, x):
